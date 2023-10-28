@@ -1,4 +1,5 @@
 
 background-image {
-    background-image: url ("Images/background image.jpg");
+    background-image: url ("Images/background image.png")
+    background-size cover;
 }
