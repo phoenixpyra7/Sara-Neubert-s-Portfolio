@@ -3,13 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/*Set font for easy reading */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*set to group/stack article items */
 .portfolio-items {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* added wrap so items will drop down */
 }
-
+/* */
 .portfolio-items article {
-    width: calc(50% - 40px);
+    width: calc(50% - 40px);/* added to make sure everything will space out approprietly */
     margin: 20px;
+}
+/*added to make the work feature photo will be larger than the others */
+.portfolio-items article:first-child {
+    width: calc(100% - 40px)
+}
+/* Work feature photo set 80% because 100% too big */
+.portfolio-items article:first-child img {
+    width: 70%;
 }
