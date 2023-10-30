@@ -10,7 +10,11 @@ body {
 /*STILL NEEDS TO BE RE-SIZED*/
 .portfolio-image {
     display: flex;
-    width: 100%;
+    flex-wrap: wrap; 
+}
+.portfolio-image article {
+    display: flex;
+    width: 500px;
     margin: 20px;
     padding: 50px;
     aspect-ratio: 16/9;
@@ -18,6 +22,10 @@ body {
     align-items: center;
     filter: drop-shadow(10px 10px 15px black);
     /*add flexbox to center to page*/
+}
+.portfolio-image article img {
+    object-fit: contain;
+    height: fit-content;
 }
 /*set to group/stack article items */
 .portfolio-items {
