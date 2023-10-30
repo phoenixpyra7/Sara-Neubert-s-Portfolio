@@ -21,11 +21,12 @@ body {
     overflow: hidden;
     align-items: center;
     filter: drop-shadow(10px 10px 15px black);
-    /*add flexbox to center to page*/
+    /*add flexbox to center to the page*/
 }
 .portfolio-image article img {
     object-fit: contain;
-    height: fit-content;
+    max-width: fit-content;
+    max-height: fit-content;
 }
 main {
     max-width: 960px;
