@@ -7,12 +7,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+/*STILL NEEDS TO BE RE-SIZED*/
 .portfolio-image {
     display: flex;
     width: 100%;
+    margin: 20px;
+    padding: 50px;
     aspect-ratio: 16/9;
     overflow: hidden;
     align-items: center;
+    /*add flexbox to center to page*/
 }
 /*set to group/stack article items */
 .portfolio-items {
@@ -38,5 +42,8 @@ body {
     aspect-ratio: 16/9;
     overflow: hidden;
     align-items: center;
+    transition-property: all 300ms ease-in-out;
+    filter: drop-shadow(20px 20px 24px black);
+    filter: saturate(50%);
 }
 
