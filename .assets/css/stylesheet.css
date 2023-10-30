@@ -16,6 +16,7 @@ body {
     aspect-ratio: 16/9;
     overflow: hidden;
     align-items: center;
+    filter: drop-shadow(10px 10px 15px black);
     /*add flexbox to center to page*/
 }
 /*set to group/stack article items */
@@ -36,12 +37,12 @@ body {
 .portfolio-items article img {
     width: 100%;
 }
+/* attempt to add drop shadow and saturate were conflicted after adding same to figure image*/
 .portfolio-items article a {
-    display: flex;
+    display: center;
     width: 100%;
     aspect-ratio: 16/9;
     overflow: hidden;
-    align-items: center;
     transition-property: all 300ms ease-in-out;
     filter: drop-shadow(20px 20px 24px black);
     filter: saturate(50%);
