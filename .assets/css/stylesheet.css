@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,4 +6,10 @@
 
 .portfolio-items {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-items article {
+    width: calc(50% - 40px);
+    margin: 20px;
 }
