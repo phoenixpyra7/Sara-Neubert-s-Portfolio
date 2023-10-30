@@ -3,9 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*Set font for easy reading */
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+    width: fit-content;
+    margin: auto;
 }
 /*STILL NEEDS TO BE RE-SIZED*/
 .portfolio-image {
