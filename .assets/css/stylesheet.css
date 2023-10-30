@@ -10,7 +10,7 @@ body {
 /*STILL NEEDS TO BE RE-SIZED*/
 .portfolio-image {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 .portfolio-image article {
     display: flex;
@@ -26,6 +26,19 @@ body {
 .portfolio-image article img {
     object-fit: contain;
     height: fit-content;
+}
+main {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+#about > div{
+    display: flex;
+/*add stuff here*/
+}
+#about img {
+margin-bottom: 16px;
+margin-right: 16px;
 }
 /*set to group/stack article items */
 .portfolio-items {
