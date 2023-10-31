@@ -3,13 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /*Set font for easy reading */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
-    flex-direction:row;
-    align-content:space-around;
+    flex-direction: row;
+    align-content: space-around;
+    text-align: center;
 }
 
 /*Can I change all portfolio image to say figure?*/
@@ -26,44 +29,55 @@ header {
     filter: drop-shadow(10px 10px 15px black);
     /*add flexbox to center to the page*/
 }
+
 .portfolio-image img {
     object-fit: contain;
     max-width: fit-content;
     max-height: fit-content;
 }
+
 main {
     max-width: 960px;
     margin: auto;
     padding: 0 20px;
 }
-main h2, h3 {
+
+main h2,
+h3 {
     margin: auto;
     border: 100px;
 }
+#about {
+    text-align: center;
+}
 #about div {
-    display: flex;
     margin: auto;
-/*add stuff here*/
+    /*add stuff here*/
 }
+
 #work {
-margin: auto;
+    margin: auto;
+    text-align: center;
 }
+
 /*set to group/stack article items */
 .portfolio-items {
     display: flex;
-    flex-wrap: wrap; /* added wrap so items will drop down */
+    flex-wrap: wrap;
+    /* added wrap so items will drop down */
 }
 /* */
-.portfolio-items article {
-    width: calc(50% - 40px);/* added to make sure everything will space out approprietly */
+.portfolio-items figure {
+    width: calc(50% - 40px);
+    /* added to make sure everything will space out approprietly */
     margin: 20px;
 }
 /*added to make the work feature photo will be larger than the others */
-.portfolio-items article:first-child {
+.portfolio-items figure:first-child {
     width: calc(100% - 40px)
 }
 /* Work feature photo set 100% for now*/
-.portfolio-items article img {
+.portfolio-items figure img {
     width: 100%;
 }
 /* attempt to add drop shadow and saturate were conflicted after adding same to figure image*/
