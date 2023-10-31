@@ -3,8 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1   {
-    font-style:italic;
+
+/*Changed h1 font style and color*/
+h1 {
+    font-style: italic;
     color: aliceblue;
 }
 
@@ -12,11 +14,15 @@ h1   {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/*Changed h2 font style and color*/
 h2 {
-    font-style:italic;
+    font-style: italic;
     color: aliceblue;
     padding-bottom: 20px;
 }
+
+/*Jazzed up the header*/
 header {
     flex-direction: row;
     align-content: space-around;
@@ -24,55 +30,61 @@ header {
     padding-top: 50px;
 }
 
-/*Can I change all portfolio image to say figure?*/
+/*Featuured portfolio photo but unable to get responsive to work*/
 .portfolio-image {
     display: flex;
     /* flex-wrap: wrap; */
-    margin: 20px; 
+    margin: 20px;
     padding: 40px 40px 10px 40px;
     /* overflow: hidden; */
     justify-content: center;
     border-radius: 8px;
     filter: drop-shadow(0 0 20px black);
 }
+
 main {
     max-width: 960px;
     margin: auto;
     padding: 10px 20px 30px 20px;
 }
+
 #about {
     text-align: center;
     margin: auto;
     padding-bottom: 50px;
 }
-    /*add stuff here*/
+
 #work {
     text-align: center;
     margin: auto;
     padding-bottom: 50px;
 }
-/*set to group/stack article items */
+
+/*stacked article items */
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
-    /* added wrap so items will drop down */
 }
-/* */
+
+/* added wrap so items will drop down */
 .portfolio-items figure {
     width: calc(50% - 40px);
-    margin: 20px;/* added to make sure everything will space out approprietly */
+    margin: 20px;
+    /* added to make sure everything will space out approprietly */
     filter: drop-shadow(20px 20px 24px black);
 }
-/*added to make the work feature photo will be larger than the others */
+
+/*added to make the 1st work photo will be larger than the others */
 .portfolio-items figure:first-child {
     width: calc(100% - 40px);
 }
-/* Work feature photo set 50% for now*/
+
+/* 1st work photo set 50% for now*/
 .portfolio-items figure img {
     width: 100%;
     padding-top: 20px;
 }
-/* attempt to add drop shadow and saturate were conflicted after adding same to figure image*/
+
 .portfolio-items article a {
     display: center;
     width: 100%;
@@ -80,11 +92,12 @@ main {
     overflow: hidden;
     /* transition-property: all 300ms ease-in-out; */
 }
+
 /* added contact*/
 #contact {
     text-align: center;
     flex-direction: row;
     align-content: center;
     padding: 30px 0px;
-   
+
 }
