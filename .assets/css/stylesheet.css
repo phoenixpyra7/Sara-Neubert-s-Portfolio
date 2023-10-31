@@ -7,7 +7,6 @@
 /*Set font for easy reading */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 header {
@@ -23,7 +22,7 @@ header {
     /* display: flex; */
     /* width: 100%; */
     margin: 20px;
-    padding: 50px;
+    padding: 40px 40px 10px 40px;
     /* overflow: hidden; */
     justify-content: center;
     border-radius: 8px;
@@ -32,7 +31,7 @@ header {
 main {
     max-width: 960px;
     margin: auto;
-    padding: 30px 20px;
+    padding: 10px 20px 30px 20px;
 }
 #about {
     text-align: center;
@@ -54,7 +53,7 @@ main {
 /* */
 .portfolio-items figure {
     width: calc(50% - 40px);
-    margin: 10px;/* added to make sure everything will space out approprietly */
+    margin: 20px;/* added to make sure everything will space out approprietly */
 }
 /*added to make the work feature photo will be larger than the others */
 .portfolio-items figure:first-child {
