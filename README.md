@@ -5,7 +5,9 @@
 This is a basic portfolio website that I have created for myself, including work that I have already completed and space for projects in the works. Content code has been organized, consolidated, and updated to meet accessibility standards.
 
 ## Screenshot
-![Screenshot of Sara Neubert's Portfolio](https://tinyurl.com/ykvjwo9q)
+
+![ Sara Neubert's Portfolio](assets/Images/Sara-Neubert-s-Portfolio.png)
+![image](https://github.com/phoenixpyra7/Sara-Neubert-s-Portfolio/assets/145240485/d87ce748-1e52-443c-aeaa-46a275d4a748)
 
 
 ## Link
