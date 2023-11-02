@@ -6,12 +6,13 @@ This is a basic portfolio website that I have created for myself, including work
 
 ## Screenshot
 
-![ Sara Neubert's Portfolio](assets/Images/Sara-Neubert-s-Portfolio.png)
 ![image](https://github.com/phoenixpyra7/Sara-Neubert-s-Portfolio/assets/145240485/d87ce748-1e52-443c-aeaa-46a275d4a748)
 
 
-## Link
-![Live URL](https://tinyurl.com/yo6xsq49)
+## Link 
+
+![image](https://github.com/phoenixpyra7/Sara-Neubert-s-Portfolio/assets/145240485/906c877a-642b-41f7-8a36-c51fdc8e50c1)
+
 
 
 Sources:
