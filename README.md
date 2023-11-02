@@ -9,7 +9,7 @@ This is a basic portfolio website that I have created for myself, including work
 
 
 ## Link
-[Live URL](https://phoenixpyra7.github.io/Sara-Neubert-s-Portfolio/)
+![Live URL](https://tinyurl.com/yo6xsq49)
 
 
 Sources:
